@@ -1,0 +1,22 @@
+{
+  "name": "eleicao-rj-prefeitura",
+  "version": "1.0.0",
+  "description": "simple back end to convert xlsx data to json and send to front",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SirTeteu/eleicao-rj-prefeitura.git"
+  },
+  "author": "Matheus Fernandes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SirTeteu/eleicao-rj-prefeitura/issues"
+  },
+  "homepage": "https://github.com/SirTeteu/eleicao-rj-prefeitura#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
