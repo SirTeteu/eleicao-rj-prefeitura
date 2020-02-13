@@ -74,8 +74,9 @@ class PieChart extends React.Component {
       .enter()
       .append('text')
       .text(function(d) { 
-         let percent = Math.round(100 * d.data.value.number / total);
-         return `${d.data.value.name} (${percent}%)`;
+         // let percent = Math.round(100 * d.data.value.number / total);
+         // return `${d.data.value.name} (${percent}%)`;
+         return d.data.value.name;
       })
       .attr("transform", function(d) { return "translate(" + arcGenerator.centroid(d) + ")";  })
       .style("text-anchor", "middle")
