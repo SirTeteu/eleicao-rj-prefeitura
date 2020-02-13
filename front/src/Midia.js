@@ -43,6 +43,7 @@ class Midia extends React.Component {
             { name: 'Freixo', number: this.state.freixo.total }
         ];
         const crivella_src = this.generateTopSource(this.state.crivella.src);
+        const freixo_src = this.generateTopSource(this.state.freixo.src);
 
         return(
             <div>
@@ -53,6 +54,9 @@ class Midia extends React.Component {
 
                 <h3>Jornais que mais publicaram sobre Crivella</h3>
                 <PieChart width={300} height={300} data={crivella_src}/>
+
+                <h3>Jornais que mais publicaram sobre Freixo</h3>
+                <PieChart width={300} height={300} data={freixo_src}/>
 
             </div>
         )
