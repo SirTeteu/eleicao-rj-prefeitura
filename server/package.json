@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/SirTeteu/eleicao-rj-prefeitura#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "file-system": "^2.2.2",
+    "moment": "^2.24.0",
+    "xlsx": "^0.15.5"
   }
 }
